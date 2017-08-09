@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DAFEF4DEE75D24C374E6FC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0DAFEF4DEE75D24C374E6FC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B9CB2A86B5477950003F1AE /* Pods-ThrymrGateways_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrymrGateways_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThrymrGateways_Tests/Pods-ThrymrGateways_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D9F66432BCD3E2FADAC1C4C /* Pods-ThrymrGateways_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrymrGateways_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThrymrGateways_Example/Pods-ThrymrGateways_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ThrymrGateways_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrymrGateways_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,10 +59,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		693479FBA9A0503A9365AEA1 /* ThrymrGateways.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThrymrGateways.podspec; path = ../ThrymrGateways.podspec; sourceTree = "<group>"; };
+		693479FBA9A0503A9365AEA1 /* ThrymrGateways.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThrymrGateways.podspec; path = ../ThrymrGateways.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76E400A7C4005727EEAB1F40 /* Pods-ThrymrGateways_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrymrGateways_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThrymrGateways_Example/Pods-ThrymrGateways_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81B61DEC34B6B922D8DCEC2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		81B61DEC34B6B922D8DCEC2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95050E51B793A6B6F4CE4D21 /* Pods-ThrymrGateways_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThrymrGateways_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThrymrGateways_Tests/Pods-ThrymrGateways_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBDDCC4A2DF76C70DE035068 /* Pods_ThrymrGateways_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThrymrGateways_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Shivakumar799;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RYJPVG7C33;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -304,10 +307,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ThrymrGateways_Example/Pods-ThrymrGateways_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
 				"${BUILT_PRODUCTS_DIR}/ThrymrGateways/ThrymrGateways.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThrymrGateways.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,9 +538,11 @@
 			baseConfigurationReference = 76E400A7C4005727EEAB1F40 /* Pods-ThrymrGateways_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYJPVG7C33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThrymrGateways/ThrymrGateways-Prefix.pch";
 				INFOPLIST_FILE = "ThrymrGateways/ThrymrGateways-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +555,11 @@
 			baseConfigurationReference = 5D9F66432BCD3E2FADAC1C4C /* Pods-ThrymrGateways_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYJPVG7C33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThrymrGateways/ThrymrGateways-Prefix.pch";
 				INFOPLIST_FILE = "ThrymrGateways/ThrymrGateways-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

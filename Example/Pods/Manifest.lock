@@ -1,0 +1,22 @@
+PODS:
+  - OpenSSL (1.0.210)
+  - TFHpple (2.0.0)
+  - ThrymrGateways (0.1.0)
+
+DEPENDENCIES:
+  - OpenSSL
+  - TFHpple
+  - ThrymrGateways (from `../`)
+
+EXTERNAL SOURCES:
+  ThrymrGateways:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+  ThrymrGateways: 5e61cd4ad7d8921e69d6e401c44b9a23b09d6eab
+
+PODFILE CHECKSUM: 0cd12c811cf810f3bee3d5992a0aa771318a21eb
+
+COCOAPODS: 1.3.1

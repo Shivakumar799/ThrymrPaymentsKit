@@ -1,0 +1,6 @@
+framework module ThrymrGateways {
+  umbrella header "ThrymrGateways-umbrella.h"
+
+  export *
+  module * { export * }
+}

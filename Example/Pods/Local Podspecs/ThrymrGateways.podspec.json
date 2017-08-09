@@ -1,0 +1,22 @@
+{
+  "name": "ThrymrGateways",
+  "version": "0.1.0",
+  "summary": "An easy way to make payments via ThrymrGateways.",
+  "description": "An attempt to acheive the payments in apps via ThrymrGateways.",
+  "homepage": "https://github.com/Shivakumar799/ThrymrPaymentsKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shivakumar799": "shivakumar.muddunuru@thrymr.net"
+  },
+  "source": {
+    "git": "https://github.com/Shivakumar799/ThrymrPaymentsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ThrymrGateways/Classes/**/*"
+}

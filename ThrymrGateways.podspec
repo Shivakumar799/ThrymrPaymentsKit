@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ThrymrGateways'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ThrymrGateways.'
+  s.summary          = 'An easy way to make payments via ThrymrGateways.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+An attempt to acheive the payments in apps via ThrymrGateways.
+DESC
 
-  s.homepage         = 'https://github.com/Shivakumar799/ThrymrGateways'
+  s.homepage         = 'https://github.com/Shivakumar799/ThrymrPaymentsKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shivakumar799' => 'shivakumar.muddunuru@thrymr.net' }
-  s.source           = { :git => 'https://github.com/Shivakumar799/ThrymrGateways.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Shivakumar799/ThrymrPaymentsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
