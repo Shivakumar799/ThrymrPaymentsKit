@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThrymrGateways_Example' do
+  pod 'ThrymrGateways', :path => '../'
+
+  target 'ThrymrGateways_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
